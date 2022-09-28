@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(224, 69, 95);
+    color: rgb(233, 199, 159);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0px;
+    margin: 0px;
+    
+    text-align: center;
+}
+p {
+    color: rgb(233, 199, 159);
+}
+
+/*.jumbotron{
+    background-image:url(https://images.unsplash.com/photo-1444882158336-bcfbd9298309?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+    height: 200px;
+    background-position: bottom center;
+}*/
+h1{
+    color:#ffffff;
+    font-family: 'Ruda', sans-serif;
+    
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    color: #ffffff;
+    font-family: 'Catamaran',sans-serif;
+    margin: 0px;
+    text-align: left;
+}
+h3{
+    
+    font-family: 'Ruda',sans-serif;
+    font-size: 32px;
+    margin: 0px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+}
+p{
+    
+    font-family: 'Pontano Sans',sans-serif;
+    margin: 0px;
+    text-align: left;
+}
+.borders{
+    border: 1px solid #ffffff;
+    margin: 60px auto ;
+    padding: 10px 0px 0px 0px;
+    width: 90%;
+}
+.hotel-img{
+    display: inline-block;
+    margin-top: 20px;
+}
+.hotel-description{
+    display: inline-block;
+    width: 70%;
+}
+.peoplelink{
+    margin-top: 30px;
+    width: 100%;
+}
+a{
+    /*background-color: #D7263D;
+    color: #ffffff;*/
+    display: block;
+    font-family: 'Pontano Sans',sans-serif;
+    
+    padding-block: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul{
+    padding: 0px;
+    margin: 10px 0px;
+}
+li{
+    margin:0px;
+    list-style: none;
+}
+.breadcrumb a {
+    background-color: inherit;
+}
+
+.hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    border: 2px solid rgb(233, 199, 159);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    z-index: 0;
+} 
+
+
+.hbtn i {
+    padding-right: 8px;
+} 
+
+
+.hb-fill-bottom::before {
+    position: absolute;
+    content: "";
+    background: rgb(255, 255, 255);
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 100%;
+    height: 0px;
+    opacity: 1;
+} 
+
+
+.hb-fill-bottom:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+
+
+.hb-fill-bottom:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    transition: color 0.3s ease 0s, background 0s ease 0.3s;
+} 
+
+.peoplelink{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    
+    color: rgb(224, 46, 76);
+    background-color: rgb(233, 199, 159);
+}
+
+.peoplelink:hover{
+    text-decoration: none;
+    background-color: rgb(224, 46, 76);
+    color:rgb(233, 199, 159);
+}
+
+#tweek{
+    font-size: 20px;
+    text-transform: none;
+    margin: 5px;
+}
